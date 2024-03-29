@@ -1,1 +1,67 @@
+body {
+  background-image: url(../src/images/lemurs\ animal\ wallpaper.jpg);
+  background-size: cover;
 
+  background-repeat: no-repeat;
+  font-family: "Reem Kufi", sans-serif;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+h1 {
+  color: #494a57;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+}
+
+form {
+  background-color: #494a57;
+  padding: 60px 0;
+  border-radius: 10px;
+  opacity: 0.8;
+  display: flex;
+  margin-bottom: 30px;
+}
+.enter-info {
+  font-size: 16px;
+  padding: 15px;
+  width: 80%;
+  border-radius: 50px;
+  border: none;
+  line-height: 24px;
+  margin-left: 15px;
+}
+.submit-button {
+  margin-left: 10px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  width: 150px;
+  padding: 14px;
+  margin-right: 15px;
+}
+.facts {
+  background-color: #494a57;
+  opacity: 0.8;
+  border-left: 4px solid white;
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+footer {
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+}
+a {
+  color: black;
+}
