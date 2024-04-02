@@ -12,6 +12,7 @@ body {
 
 h1 {
   color: #494a57;
+  opacity: 0.9;
   font-size: 40px;
   font-weight: 800;
   line-height: 1.5;
@@ -63,6 +64,6 @@ footer {
   text-align: center;
 }
 a {
-  color: black;
+  color: #02523b;
   font-weight: 600;
 }
