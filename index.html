@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Interesting Animal Facts AI Generator</title>
   </head>
@@ -19,7 +20,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="facts-generator">
           <input
             type="text"
             placeholder="Enter..."
@@ -31,10 +32,7 @@
           <input type="submit" class="submit-button" />
         </form>
       </main>
-      <div class="facts">
-        A pistol shrimp can make a sound louder than a jet engine by snapping
-        its claw, stunning its prey and creating a bubble of hot air.
-      </div>
+      <div class="facts" id="facts-answer"></div>
       <footer>
         This project was created by Irina Wilson and is
         <a
