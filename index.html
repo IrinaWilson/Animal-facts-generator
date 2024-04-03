@@ -21,20 +21,23 @@
       </header>
 
       <main>
-        <form id="facts-generator">
-          <input
-            type="text"
-            placeholder="Enter..."
-            autofocus
-            required
-            autocomplete="off"
-            class="enter-info"
-            id="user-instruction"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="facts-generator">
+            <input
+              type="text"
+              placeholder="Enter a name of an animal"
+              autofocus
+              required
+              autocomplete="off"
+              class="enter-info"
+              id="user-instruction"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Platupus, dog or a seal</div>
+        </div>
       </main>
-      <div class="facts" id="facts-answer"></div>
+      <div class="facts hidden" id="facts-answer"></div>
       <footer>
         This project was created by Irina Wilson and is
         <a

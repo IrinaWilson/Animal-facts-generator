@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  color: #494a57;
+  color: black;
   opacity: 0.9;
   font-size: 40px;
   font-weight: 800;
@@ -19,13 +19,23 @@ h1 {
   text-align: center;
 }
 
-form {
+.form-container {
   background-color: #494a57;
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 35px;
   border-radius: 10px;
   opacity: 0.8;
-  display: flex;
   margin-bottom: 30px;
+}
+
+.hint {
+  margin-top: 12px;
+  color: white;
+  opacity: 0.4;
+  margin-left: 10px;
+}
+form {
+  display: flex;
 }
 .enter-info {
   font-size: 16px;
@@ -52,11 +62,31 @@ form {
   opacity: 0.8;
   border-left: 4px solid white;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   padding: 10px;
   margin-bottom: 30px;
 }
+
+.hidden {
+  display: none;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 footer {
   color: white;
   font-size: 15px;

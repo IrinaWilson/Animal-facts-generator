@@ -4,7 +4,7 @@ function displayFact(response) {
     strings: response.data.answer,
     autoStart: true,
     cursor: null,
-    delay: 4,
+    delay: 20,
   });
 }
 
@@ -17,6 +17,11 @@ function showAnswer(event) {
 
   let apiKey = "80083fa950bb6bac505970t4eao412fe";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+  let hiddenElement = document.querySelector("#facts-answer");
+  hiddenElement.classList.remove("hidden");
+
+  hiddenElement.innerHTML = `<span class = "generating">⏳</span> Generating a fact about ${instructionsInput.value}`;
 
   axios.get(apiUrl).then(displayFact);
 }
