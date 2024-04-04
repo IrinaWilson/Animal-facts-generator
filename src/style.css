@@ -6,7 +6,8 @@ body {
 }
 
 .wrapper {
-  background-image: url(../src/images/lemurs\ animal\ wallpaper.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../src/images/lemurs\ animal\ wallpaper.jpg);
   background-size: cover;
   padding: 100px;
   background-repeat: no-repeat;
