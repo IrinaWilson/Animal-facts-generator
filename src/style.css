@@ -1,9 +1,17 @@
 body {
+  background-color: #494a57;
+  display: block;
+  margin: 8px;
+  font-family: "Reem Kufi", sans-serif;
+}
+
+.wrapper {
   background-image: url(../src/images/lemurs\ animal\ wallpaper.jpg);
   background-size: cover;
-
+  padding: 100px;
   background-repeat: no-repeat;
-  font-family: "Reem Kufi", sans-serif;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 .container {
   margin: 120px auto;
@@ -96,4 +104,15 @@ footer {
 a {
   color: black;
   font-weight: 780;
+}
+@media (max-width: 960px) {
+  main {
+    margin: 5px;
+  }
+  .wrapper {
+    padding: 60px 0;
+  }
+  .wrapper h1 {
+    font-size: 25px;
+  }
 }
