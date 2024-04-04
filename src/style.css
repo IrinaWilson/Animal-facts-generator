@@ -6,8 +6,8 @@ body {
 }
 
 .wrapper {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../src/images/lemurs\ animal\ wallpaper.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../src/images/animals.jpg);
   background-size: cover;
   padding: 100px;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-  color: black;
+  color: #b19e41;
   opacity: 0.9;
   font-size: 40px;
   font-weight: 800;
@@ -29,11 +29,11 @@ h1 {
 }
 
 .form-container {
-  background-color: #494a57;
+  background-color: black;
   padding-top: 60px;
   padding-bottom: 35px;
   border-radius: 10px;
-  opacity: 0.8;
+  opacity: 0.7;
   margin-bottom: 30px;
 }
 
@@ -58,7 +58,7 @@ form {
 .submit-button {
   margin-left: 10px;
   color: white;
-  background-color: black;
+  background-color: #0d4f6c;
   border: none;
   border-radius: 50px;
   font-size: 16px;
@@ -67,8 +67,8 @@ form {
   margin-right: 15px;
 }
 .facts {
-  background-color: #494a57;
-  opacity: 0.8;
+  background-color: black;
+  opacity: 0.6;
   border-left: 4px solid white;
   color: white;
   font-size: 18px;
@@ -103,8 +103,8 @@ footer {
   text-align: center;
 }
 a {
-  color: black;
-  font-weight: 780;
+  color: #0d4f6c;
+  font-weight: 900;
 }
 @media (max-width: 960px) {
   main {
