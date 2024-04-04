@@ -8,6 +8,10 @@ function displayFact(response) {
   });
 }
 
+function clearInput() {
+  document.querySelector("#user-instruction").value = "";
+}
+
 function showAnswer(event) {
   event.preventDefault();
   let instructionsInput = document.querySelector("#user-instruction");
@@ -22,7 +26,7 @@ function showAnswer(event) {
   hiddenElement.classList.remove("hidden");
 
   hiddenElement.innerHTML = `<span class = "generating">⏳</span> Generating a fact about ${instructionsInput.value}`;
-
+  clearInput();
   axios.get(apiUrl).then(displayFact);
 }
 
